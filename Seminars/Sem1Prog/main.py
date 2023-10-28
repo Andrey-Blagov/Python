@@ -29,3 +29,10 @@
 #     print("Всего ", x + y - 1, " вагонов")
 
 
+# year = int(input("Input the year to check: "))
+# if year % 4 == 0 and year % 100 != 0:
+#     print("YES")
+# else:
+#     print("NO")
+
+
