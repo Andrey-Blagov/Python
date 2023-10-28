@@ -3,12 +3,12 @@
 # n = int(input("Введите скорость автомобиля: "))
 # m = int(input("Введитие общее расстояние: "))
 
+
 # print(math.ceil(m/n))
 
 # print(m//n + (m % n > 0))
 
 # print((m + n - 1) // n)
-
 
 
 # x = int(input("Qty of student in 1 class: "))
@@ -17,7 +17,6 @@
 
 # print(f"It is required to buy {(-(-x//2) - (-y//2) - (-z//2))} scool desks")
 # print(f"It is required to buy {((x+1)//2) + ((y+1)//2) + ((z+1)//2))} scool desks")
-
 
 
 # x = int(input("В какой сел: "))
@@ -35,4 +34,11 @@
 # else:
 #     print("NO")
 
+
+
+# n = int(input())
+# if (n % 4 == 0 and n % 100 != 0) or n % 400 == 0:
+#     print("год високосный")
+# else:
+#     print("год не високосный")
 
