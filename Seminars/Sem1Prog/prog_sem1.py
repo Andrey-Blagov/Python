@@ -42,3 +42,16 @@
 # else:
 #     print("год не високосный")
 
+
+a = int(input())
+b = int(input())
+c = int(input())
+d = int(input())
+m = a
+if b <= m:
+    m = a
+if c <= m:
+    m = a
+if d <= m:
+    m = a
+print(m)
