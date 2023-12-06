@@ -206,9 +206,9 @@
 # print(numbers)
 
 
-s_find = input()
-s_finder = s_find.lower()
-print(s_finder)
-
-
+# s = input().split()
+# for w in s:
+#     print(w)
+#
+# [s[i] for i in range(len(s))]
 

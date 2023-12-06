@@ -69,10 +69,16 @@ def write_contact():
 
 def print_contacts():
     '''List all entries'''
+    # with open('phonebook.txt', 'r', encoding='utf-8') as file:
+    #     print('-----------------------')
+    #     print(file.read())
+    #     print('-----------------------')
+
+    # 2
     with open('phonebook.txt', 'r', encoding='utf-8') as file:
-        print('-----------------------')
-        print(file.read())
-        print('-----------------------')
+        contacts_list = file.read().rstrip().split('\n\n')
+        for nn, contact in enumerate(contacts_list, 1):
+            print(f'{nn}. {contact}\n')
 
 
 def search_contact(field=''):
@@ -136,3 +142,9 @@ def interface():
 
 if __name__ == '__main__':
     interface()
+
+# Задача 38:  Дополнить телефонный справочник возможностью изменения
+# и удаления данных(по выбору).
+# Пользователь также может ввести имя или фамилию,
+# и Вы должны реализовать функционал для изменения и удаления данных.
+

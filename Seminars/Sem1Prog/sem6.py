@@ -272,8 +272,11 @@
 # # for i in range(a, b + 1):
 # print([chr(i) for i in range(a, b + 1)])
 
-s = 'Hello world!'
+# s = 'Hello world!'
 # for i in range(len(s)):
 #     print(ord(s[i]), end=' ')
 # print()
-# print([ord(s[i]) for i in range(len(s))])
+# print(*[c for c in s], sep='\n')
+
+
+s = [''1 2 3 4 5
